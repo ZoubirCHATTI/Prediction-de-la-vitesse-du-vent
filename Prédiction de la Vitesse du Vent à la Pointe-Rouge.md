@@ -43,6 +43,7 @@ pour l'exécution de la méthode univariée, il suffit d'appuyer sur:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZoubirCHATTI/Prediction-de-la-vitesse-du-vent/HEAD?filepath=notebooks/01_regression_lineaire_simple_univariee.ipynb)
 
+
 pour l'éxécution de la méthode multivariée, il suffit d'appuyer sur:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZoubirCHATTI/Prediction-de-la-vitesse-du-vent/HEAD?filepath=notebooks/02_Regression_lin%C3%A9aire_multivari%C3%A9e.ipynb)
