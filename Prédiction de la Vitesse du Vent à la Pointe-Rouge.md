@@ -37,6 +37,15 @@ Les principaux fichiers de données utilisés dans ce projet sont :
 
 *   `donnees/V_PR.xlsx` : Contient les mesures de la vitesse du vent enregistrées à la Pointe-Rouge (variable cible).
 *   `donnees/Marseille_régional.xlsx` : Contient les paramètres climatologiques régionaux enregistrés à Marseille, incluant la vitesse du vent, la température, l'humidité et la pression atmosphérique (variables prédictives).
+## Exécution 
+pour l'exécution de la méthode univariée, il suffit d'appuyer sur:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZoubirCHATTI/Prediction-de-la-vitesse-du-vent/HEAD?filepath=notebooks/01_regression_lineaire_simple_univariee.ipynb)
+
+pour l'éxécution de la méthode multivariée, il suffit d'appuyer sur:
+
+pour l'éxécution de la méthode MLP, il suffit d'appuyer sur:
+
 
 ## Modèles et Résultats
 
