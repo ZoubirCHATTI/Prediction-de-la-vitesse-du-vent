@@ -19,17 +19,18 @@ Le projet est organisé comme suit :
 ```
 /
 ├── notebooks/       # Contient les notebooks Jupyter pour chaque étape d'analyse et modèle
-│   ├── 1_exploration_modele_simple.ipynb
-│   ├── 2_integration_multi_variables.ipynb
-│   └── 3_approche_neuronale.ipynb
+│   ├── 01_regression_linéaire_simple(univariée).ipynb
+│   ├── 02_Regression_linéaire_multivariée.ipynb
+│   └── 03_MLPRegressor.ipynb
 ├── figures/         # Stocke les graphiques générés durant l'analyse
 ├── donnees/         # Contient les fichiers de données utilisés
 │   ├── V_PR.xlsx
 │   └── Marseille_régional.xlsx
+│   └── Marseille_originale.xlsx
+│   └── MPointerouge_originale.xlsx
 └── README.md        # Ce fichier
 ```
 
-*(Note : Les noms des notebooks sont supposés, veuillez les ajuster si nécessaire.)*
 
 ## Données
 
@@ -44,7 +45,13 @@ pour l'exécution de la méthode univariée, il suffit d'appuyer sur:
 
 pour l'éxécution de la méthode multivariée, il suffit d'appuyer sur:
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZoubirCHATTI/Prediction-de-la-vitesse-du-vent/HEAD?filepath=notebooks/02_Regression_lin%C3%A9aire_multivari%C3%A9e.ipynb)
+
+
 pour l'éxécution de la méthode MLP, il suffit d'appuyer sur:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZoubirCHATTI/Prediction-de-la-vitesse-du-vent/HEAD?filepath=notebooks/03_MLPRegressor.ipynb)
+
 
 
 ## Modèles et Résultats
@@ -68,20 +75,5 @@ Les résultats obtenus pour chaque modèle sont les suivants :
 *   Le **modèle MLP Regressor** obtient le coefficient de détermination le plus élevé (R² = 0.965), indiquant qu'il explique la plus grande proportion de la variance de la vitesse du vent locale, bien que son erreur soit intermédiaire.
 *   Le **modèle linéaire simple** sert de référence de base, surpassé par les deux autres approches plus complexes.
 
-## Instructions d'Utilisation
-
-Pour explorer les analyses et exécuter les modèles :
-
-1.  **Téléchargez le projet :** Clonez ou téléchargez le contenu de ce dépôt GitHub, en vous assurant d'inclure les dossiers `notebooks/` et `donnees/`.
-
-    ```bash
-    git clone <URL_DU_DEPOT_GIT>
-    cd <NOM_DU_DOSSIER_PROJET>
-    ```
-
-2.  **Ouvrez un Notebook :** Lancez votre environnement Jupyter (Jupyter Notebook, JupyterLab, Google Colab, VS Code, etc.) et ouvrez l'un des notebooks situés dans le dossier `notebooks/`.
-
-3.  **Configurez les Chemins d'Accès :** Avant d'exécuter les cellules, assurez-vous que les chemins d'accès aux fichiers de données (`.xlsx` dans le dossier `donnees/`) sont correctement configurés dans les notebooks pour correspondre à leur emplacement sur votre machine ou dans votre environnement d'exécution.
-
-4.  **Exécutez les Cellules :** Exécutez les cellules du notebook séquentiellement pour reproduire l'analyse, l'entraînement des modèles et l'évaluation des performances.
+**Auteur:** Zoubir CHATTI
 
