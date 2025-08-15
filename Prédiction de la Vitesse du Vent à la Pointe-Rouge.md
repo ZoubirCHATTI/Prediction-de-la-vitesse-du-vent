@@ -76,5 +76,9 @@ Les résultats obtenus pour chaque modèle sont les suivants :
 *   Le **modèle MLP Regressor** obtient le coefficient de détermination le plus élevé (R² = 0.965), indiquant qu'il explique la plus grande proportion de la variance de la vitesse du vent locale, bien que son erreur soit intermédiaire.
 *   Le **modèle linéaire simple** sert de référence de base, surpassé par les deux autres approches plus complexes.
 
+##**Conclusion**
+
+Pour ce problème de prédiction du vent, la régression linéaire multivariée est le meilleur choix. Elle offre un bon équilibre entre simplicité, interprétabilité et précision prédictive. Le perceptron multicouche (MLP), bien que puissant, n’est pas vraiment nécessaire ici car les relations dans les données semblent largement linéaires.
+
 **Auteur:** Zoubir CHATTI
 
